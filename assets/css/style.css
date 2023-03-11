@@ -1,4 +1,12 @@
 html,
+
+.closureBanner {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -30,6 +38,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -52,6 +61,14 @@ nav a:hover {
     color: darkred;
 }
 
+.home a.homeTab,
+.about a.aboutTab,
+.contact a.contactTab,
+.menu a.menuTab{
+    background-color: darkblue;
+    color: white;
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -72,6 +89,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +101,5 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+    color: black;
 }
